@@ -1,0 +1,21 @@
+article.Franquia{
+    background-color: #AEC;
+    position:relative;
+    margin:0 auto;
+    height: 430px;
+    width: 580px;
+    border: 2px solid #0AC;
+    clear:both;
+}
+
+article.Franquia p.DescFranquia{
+    background-color: #AED;
+    text-align: center;
+}
+
+img.Franquia{
+    position: relative;
+    left: 40px;
+    height: 300px;
+    width: 500px;
+}

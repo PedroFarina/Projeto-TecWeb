@@ -1,0 +1,43 @@
+section{
+    border: 2px solid #0AC;
+}
+
+section#Comentarios{
+    background-color: #FFF;
+    margin: 10px auto;
+    margin-top:0px;
+    width: 380px;
+    height: auto;
+    padding: 6px;
+}
+
+section#Comentarios form label{
+    position: relative;
+    display:block;
+    margin-top:2px;
+    border: 1px inset #EEEEEE;
+}
+
+section#Comentarios form label#Ultimo{
+    margin-bottom: 5px;
+    border : 0;
+}   
+
+section#Envio{
+    background-color: #FFF;
+    margin: 10px auto;
+    margin-top:0;
+    width: 350px;
+    height: auto;
+    padding: 6px;
+}
+
+textarea{
+    height: 100px;
+    width: 344px;
+}
+
+#btnFinalizar{
+    position: relative;
+    float: right;
+}

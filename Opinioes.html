@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opiniões</title>
+        <meta charset="utf-8">
+        <meta name = "keywords" content = "Opiniões Murokai">
+        <meta name= "description" content="Informações sobre o restaurante japonês Murokai">
+        <meta name = "author" content = "Erick Dias e Pedro Farina">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" type="text/css" href="css/Opinioes.css">
+    </head>
+    <body>
+        <section class="TopMenu">
+            <a href="home.html" id="Home"><img id="Home" src="imagens/home.png" alt="Home"></a><br><br>
+            <nav>
+                <ul class="NavMenu">
+                    <li class = "NavItem"><a href="Cardapio.html" id = "Cardapio">Cardápio</a></li>
+                    <li class = "NavItem"><a href="Franquias.html" id = "Franquias">Franquias</a></li>
+                    <li class = "NavItem"><a href="Delivery.html" id = "Delivery">Delivery</a></li>
+                    <li class = "NavItem Aqui"><a href="Opinioes.html" id = "Opiniões">Opiniões</a></li>
+                    <li class = "NavItem" id = "QuemSomos"><a href="QuemSomos.html" id = "Quem Somos">Quem Somos</a></li>
+                </ul>
+             </nav>
+        </section>
+        <div id ="Comentarios" class="Conteudo">
+            <section id = "Comentarios">
+                <header><h2>Comentários</h2></header>
+                <form>
+                    <label>Comentário genérico positivo sobre o nosso restaurante</label><br>
+                    <label>Comentário genérico negativo sobre o nosso restaurante</label>
+                    <label id="Ultimo"></label>
+                </form>
+            </section>
+            <section id = "Envio">
+                <header><h2>Enviar Comentário</h2></header>
+                <form>
+                    <label for="Name" name="lblNome">Seu nome</label><br>
+                    <input type="text" id="Name" name="Name" placeholder="Anônimo"><br>
+                    <label for"e-mail" name="lblEmail">Email</label><br>
+                    <input type="email" id="e-mail" name="e-mail" required><br>
+                    <label for="Comentario">Comentarios</label><br>
+                    <textarea placeholder="Escreva aqui o que você achou sobre a visita ao nosso restaurante" id="Comentario" name="Comentario" required></textarea><br>
+                    <input type="submit" id="btnFinalizar">
+                    <p class="clear"></p>
+                </form>
+            </section>
+        </div>
+        <br>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delivery</title>
+        <meta charset="utf-8">
+        <meta name = "keywords" content = "Delivery Murokai">
+        <meta name= "description" content="Informações sobre delivery do restaurante japonês Murokai">
+        <meta name = "author" content = "Erick Dias e Pedro Farina">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" type="text/css" href="css/Delivery.css">
+    </head>
+    <body>
+        <section class="TopMenu">
+            <a href="home.html" id="Home"><img id="Home" src="imagens/home.png" alt="Home"></a><br><br>
+            <nav>
+               <ul class="NavMenu">
+                    <li class = "NavItem"><a href="Cardapio.html" id = "Cardapio">Cardápio</a></li>
+                    <li class = "NavItem"><a href="Franquias.html" id = "Franquias">Franquias</a></li>
+                    <li class = "NavItem Aqui"><a href="Delivery.html" id = "Delivery">Delivery</a></li>
+                    <li class = "NavItem"><a href="Opinioes.html" id = "Opiniões">Opiniões</a></li>
+                    <li class = "NavItem" id = "QuemSomos"><a href="QuemSomos.html" id = "Quem Somos">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div id="Pedidos" class="Conteudo">
+            <header><h2>Realizar Pedido</h2></header>
+            <form>
+                <label for="Endereco">Endereço</label><br>
+                <input type="text" id="Endereco" placeholder="R. Generica, 404" name="Endereco"><br>
+                <label for="Itens">Itens a adicionar ao delivery</label><br>
+                <select id="Itens">
+                    <optgroup label="Temakis">
+                        <option value="TemakiSalmao" name="TemakiSalmao">Temaki de Salmão</option>
+                        <option value="TemakiAtum" name="TemakiAtum">Temaki de atum</option>
+                        <option value="TemakiCalifornia" name="TemakiCalifornia">Temaki California</option>
+                    </optgroup>
+                    <optgroup label="Sashimis">
+                        <option value="SashimiSalmao" name="SashimiSalmao">Sashimi Salmão</option>
+                        <option value="SashimiAtum" name=SashimiAtum>Sashimi Atum</option>
+                    </optgroup>
+                    <optgroup label="Quentes">
+                        <option value="SalmaoGrelhado" name="SalmaoGrelhado">Salmão Grelhado</option>
+                        <option value="Yaksoba" name="Yaksoba">Yaksoba</option>
+                    </optgroup>
+                </select>
+                <input type="number">
+                <input type="submit" name="Adicionar" value="+"><br><br>
+                <input type="submit" name="Finalizar" id="btnFinalizar">
+                <img src="imagens/Entregador.png" id="Entregador" alt="Motoboy">
+                <p class="clear"></p>
+            </form>
+        </div>
+        <p class="clear"></p><br>
+    </body>
+</html>

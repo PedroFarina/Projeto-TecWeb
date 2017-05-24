@@ -1,0 +1,22 @@
+div#Pedidos{
+    background-color: #FFFFCC;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    padding: 6px;
+    border: 2px solid #0AC;
+}
+#btnFinalizar{
+    position: relative;
+    float: right;
+}
+form{
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form img#Entregador{
+    position: relative;
+    height: 59%;
+    width: 59%;
+}

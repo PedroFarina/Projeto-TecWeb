@@ -1,0 +1,34 @@
+article.ItemCardapio{
+    background-color: #FBA;
+    position:relative;
+    margin:0 auto;
+    height: 324px;
+    width: 580px;
+    border: 2px solid #0AC;
+    clear:both;
+}
+
+img.ImagemCardapio{
+    height: 256px; 
+    width: 300px;
+}
+
+.DescItem{
+    background-color: #8F5;
+}
+
+article.ItemCardapio p.DescItem{
+    position: relative;
+    float:right;
+    top: -41px;
+}
+
+article.ItemCardapio h3.DescItem{
+    position: relative;
+    float:left;
+    text-align: center;
+    width: 232px;
+    left: 320px;
+    top:-280px;
+}
+
